@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Vida</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300&display=swap" rel="stylesheet"> <!-- Fuentes cursivas y elegantes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Raleway:wght@400&display=swap" rel="stylesheet"> <!-- Fuentes legibles y modernas -->
     <style>
         body, html {
             margin: 0;
@@ -15,48 +15,56 @@
             justify-content: center;
             align-items: center;
             background: url('img/amar.png') no-repeat center center/cover;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
 
         h1, h2 {
-            color: #ffccf9; /* Color suave y romántico */
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            color: #ffe0e0; /* Color suave y romántico pero más claro */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
             text-align: center;
         }
 
         h1 {
-            font-size: 8vw;
-            font-family: 'Great Vibes', cursive; /* Fuente cursiva y romántica */
-            animation: fadeInOut 3s infinite; /* Animación suave */
+            font-size: 7vw;
+            font-family: 'Raleway', sans-serif; /* Fuente moderna y clara */
+            font-weight: 600;
+            animation: fadeInOut 4s infinite ease-in-out; /* Animación más suave */
         }
 
         h2 {
-            font-size: 4vw;
-            margin-top: 20px;
-            font-family: 'Quicksand', sans-serif; /* Fuente sencilla para contrastar */
-            animation: pulse 2s infinite; /* Efecto de pulsación */
+            font-size: 3.5vw;
+            margin-top: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            color: #fff4f4;
+            animation: pulse 2s infinite;
         }
 
         button {
             font-size: 3vw;
-            padding: 15px 30px;
+            padding: 15px 40px;
             margin-top: 30px;
-            background-color: #ff6699;
+            background: linear-gradient(135deg, #ff6699, #ff3366);
             color: white;
             cursor: pointer;
-            border-radius: 50px;
-            border: 2px solid white;
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.4s ease, transform 0.3s ease;
+            display: block;
+            margin: 0 auto;
         }
 
         button:hover {
+            background: linear-gradient(135deg, #ff3366, #ff6699); /* Intercambio de colores en hover */
             transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
         }
 
         @keyframes fadeInOut {
             0%, 100% {
-                opacity: 0.8;
+                opacity: 0.7;
             }
             50% {
                 opacity: 1;
@@ -77,7 +85,7 @@
     <div>
         <h1>MI AMOR (●'◡'●)💕</h1>
         <h2>Tengo un regalo para ti con mucho cariño ✍ (◔◡◔)</h2>
-        <button onclick="window.location.href='rosas.html'" style="display: block; margin: 0 auto;">Ver regalo ☞ ❤️😍</button>
+        <button onclick="window.location.href='rosas.html'">Descubrir sorpresa ❤️🎁</button>
     </div>
 </body>
 </html>
