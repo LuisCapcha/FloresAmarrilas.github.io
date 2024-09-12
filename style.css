@@ -9,7 +9,16 @@
 :root {
   --dark-color: #010113;
 }
-
+#miDiv {
+  position: absolute;
+  top: 50px; /* Ajusta la posición vertical */
+  left: 50px; /* Ajusta la posición horizontal */
+  width: 200px; /* Ajusta el ancho del div */
+  height: 100px; /* Ajusta el alto del div */
+  background-color: #f2f2f2; /* Ajusta el color de fondo del div */
+  padding: 20px; /* Ajusta el padding del div */
+  border: 1px solid #ccc; /* Ajusta el borde del div */
+}
 body {
   display: flex;
   align-items: flex-end;
